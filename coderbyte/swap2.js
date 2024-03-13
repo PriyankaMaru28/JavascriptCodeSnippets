@@ -20,7 +20,6 @@ function SwapII(str) {
           end = j;
 
           var substring = str.substring(start, end);
-          //console.log("substring..", substring, "..", str[j]);
 
           if (substring.match(/[a-z]/i)) {
             newStr.splice(i, 1, str[end]);
@@ -39,4 +38,3 @@ function SwapII(str) {
 
 console.log("Hello -5LOU6 : ", SwapII("Hello -5LOU6"));
 console.log("s g DU4D5E : ", SwapII("s g DU4D5E"));
-//console.log("2s 6TUYR8 4DUG5E : ", SwapII("2s 6TUYR8 4DUG5E"));
